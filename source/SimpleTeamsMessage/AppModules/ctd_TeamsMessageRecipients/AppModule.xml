@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ctd_TeamsMessageRecipients</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="ctd_teamsmessagerecipient" />
+    <AppModuleComponent type="26" id="{778545d0-6e89-ec11-93b0-00224828be96}" />
+    <AppModuleComponent type="26" id="{57fc98a4-6f89-ec11-93b0-00224828be96}" />
+    <AppModuleComponent type="26" id="{83c7192b-73f0-4c2c-988b-b2db5b6f3c96}" />
+    <AppModuleComponent type="1" schemaName="annotation" />
+    <AppModuleComponent type="62" schemaName="ctd_TeamsMessageRecipients" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Teams Message Recipients" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>
