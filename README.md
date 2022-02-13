@@ -4,6 +4,10 @@ Create a secure list of people using Power Platform, used to send at-scale messa
 
 ## Deployment
 
+Import a package from the /solutions/ folder to a Dataverse environment.
+
+Share the **Teams Message Recipients** app and grant the **Teams Message Send User** security role to the desired teams/individuals in the environment.
+
 ## Usage
 
 1. Build your list
