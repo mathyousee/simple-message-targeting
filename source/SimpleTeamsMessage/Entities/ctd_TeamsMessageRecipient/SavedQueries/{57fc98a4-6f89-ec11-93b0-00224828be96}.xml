@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{57fc98a4-6f89-ec11-93b0-00224828be96}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ctd_name" select="1" icon="1" preview="1">
+        <row name="result" id="ctd_teamsmessagerecipientid">
+          <cell name="ctd_upn" width="196" />
+          <cell name="ctd_include" width="100" />
+          <cell name="ctd_name" width="232" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="ctd_teamsmessagerecipient">
+          <attribute name="ctd_teamsmessagerecipientid" />
+          <attribute name="ctd_name" />
+          <order attribute="ctd_name" descending="false" />
+          <attribute name="ctd_upn" />
+          <attribute name="ctd_include" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="annotation" alias="aa" link-type="inner" from="objectid" to="ctd_teamsmessagerecipientid">
+            <filter type="and">
+              <condition attribute="subject" operator="like" value="%Fail%" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Recipients with Failures" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
