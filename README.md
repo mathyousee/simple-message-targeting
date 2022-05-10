@@ -1,6 +1,6 @@
 # simple-message-targeting
 
-Create a secure list of people using Power Platform, used to send at-scale messages via Power Automate in Microsoft Teams.
+Use a Power App to create a secure list of people, used to send at-scale messages via Power Automate in Microsoft Teams. The list can also be managed via Dataverse APIs.
 
 ## Deployment
 
