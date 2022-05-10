@@ -1,6 +1,6 @@
 # simple-message-targeting
 
-Use a Power App to create a secure list of people, used to send at-scale messages via Power Automate in Microsoft Teams. The list can also be managed via Dataverse APIs.
+Use a Power App to create a secure list of people, used to send at-scale messages via Power Automate in Microsoft Teams. The list can also be managed via Dataverse APIs. The list can be built manaully in the app, or by using the native import capabilities to connect to virtually any data source (CSV, Excel, MySQL, Azure SQL, CosmosDB, raw text, etc.).
 
 ## Deployment
 
